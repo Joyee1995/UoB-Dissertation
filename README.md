@@ -1,0 +1,3 @@
+## Introduction
+
+This repository contains the code for the dissertation titled "Exploring Contrastive Learning-Based Pre-Training for Radiology Report Generation". It includes two separate folders. The `R2Gen_MedCLIP_MLC` folder houses the complete model, whereas the `PFLCLR` folder is dedicated to the proposed pretraining method 'PFLCLR'. For more details, please refer to the `README.md` file inside each folder.

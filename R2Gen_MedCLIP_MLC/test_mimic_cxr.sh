@@ -1,0 +1,12 @@
+python3 main_test.py \
+--ann_path data/iu_xray/annotation.json \
+--dataset_name mimic_cxr \
+--max_seq_length 60 \
+--threshold 3 \
+--batch_size 256 \
+--epochs 100 \
+--save_dir /notebooks/R2Gen_Clip/results_mimic/mimic_cxr/xrayclr_augmentv1_medclipv1_mlc_n_lc050_lm050/ \
+--use_medclip \
+--mlc \
+--seed 456789 \
+--load /notebooks/R2Gen_Clip/results_mimic/mimic_cxr/xrayclr_augmentv1_medclipv1_mlc_n_lc050_lm050/epoch_18.pth >> /notebooks/R2Gen_Clip/results_mimic/mimic_cxr/xrayclr_augmentv1_medclipv1_mlc_n_lc050_lm050/epoch_18_score.log  
